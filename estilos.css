@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(114, 214, 218);
+}
+.caja {
+
+    background-color: bisque;
+    line-height: 150px;
+    text-align: center;
+    border: 1px solid;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: stretch;
+}
+
+.c1{
+    grid-column: 1/4;
+    background-color: rgb(210, 28, 213);
+}
+.c8{
+    grid-column: 1/4;
+    background-color: rgb(210, 28, 213);
+}
+.c9{
+    grid-row: 1/4;
+    background-color:  rgb(210, 28, 213);
+}
+.c10{
+    grid-column: 2/4;
+    background-color: yellow;
+}
+.c12{
+ grid-row: 2/4;
+ grid-column: 3/4;
+ background-color: rgb(0, 183, 255);
+}
+.grid-layout2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: stretch;
+}
+.c14{
+    grid-column: 1/3;
+    background-color:  rgb(210, 28, 213) ;
+}
+.c17{
+    grid-column: 1/5;
+    background-color:rgb(0, 183, 255);
+}
+
+.grid-layout3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: stretch;
+}
+.c22{
+    grid-column: 1/5;
+    background-color:rgb(0, 183, 255);
+}
+.c24{
+    grid-row: 1/6;
+    grid-column: 6/7;
+    background-color:  rgb(210, 28, 213);
+}
+h1 {
+    color: rgb(75, 6, 81);
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
